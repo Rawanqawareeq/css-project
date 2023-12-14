@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.box{
+    position: absolute;
+    right:0;
+    top: 180%;
+    background-color:#fff;
+    color:#666;
+}
+.box a{
+    color: #666;
+}
+.boxs{
+    display: block;
+     padding: 10px;
+     font-size: 20px;
+}
+.boxs i:hover{
+    color:#0275d8;
+}
+.header{
+background-image: url(img/shutterstock_277750193.jpg);
+height: 100vh;
+background-size: cover;
+text-align: center;
+}
+.navbar{
+padding-top: 50px;
+position: fixed;
+width: 100%;
+top: 10px;
+}
+.up a{
+    color:#686868;
+}
+.up{
+position: absolute;
+right: 20px;
+display: block;
+padding-bottom: 50px;
+padding: 10px;
+position: fixed;
+bottom: 10px;
+opacity: 0.5;
+color: #686868;
+background-color: #373a3c;
+line-height: 30px;
+width: 30px;
+height: 30px;
+text-align: center;  
+}
+.up:hover{
+    color: #fff;
+    background-color: #253048;
+}
+.logo{
+    float: left;
+   width: 40%;
+}
+.nav{
+       width: 60%;
+padding-top: 30px;
+    float: left;
+}
+.clearfix{
+    clear: both;
+}
+.logo img{
+    width: 30%;
+}
+.nav ul li{
+    display: inline-block;
+    width: 60px;
+}
+.nav ul li a{
+   color: #fff;
+   font-size: 20px;
+}
+.header-contect{
+    padding-top: 120px;
+    color: #fff;   
+}
+.header-contect h1{
+    padding-bottom: 30px;
+    font-size: 70px;
+}
+.header-contect p{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.header-contect button{
+    padding: 15px 30px;
+}
+.learn-More{
+    background-color:#fff;
+    color:black;
+    cursor: pointer;
+
+}
+.learn-More:hover{
+    background-color: #c1ab84;
+    color:#fff;
+}
+.book:hover{
+    background-color: #c1ab84;
+    color:#fff;
+}
+.book{
+    background-color:#fff;
+    color:black;
+    cursor: pointer;
+
+}
+.overlay{
+    background-color: rgb(0,0,0,0.4);
+    height: 100vh;
+}
+
+@media screen and (max-width: 576px){
+    .nav{
+        float: none;
+        width: 100%;
+    }
+    .logo{
+        float: none;
+        width: 100%;
+    }
+    .nav ul li{
+        display: inline-block;
+        width: 55;
+    }
+    .Reviewers{
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+    .review img{
+        display: inline-block;
+        width: 40px;
+
+    }
+    .Reviewer ul il {
+       display: inline-block;
+       width: 55px;
+    }
+    .likes{
+        float: right;
+        width: 50%;  
+    }
+    .like{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 200px){
+    .nav{
+        float: left;
+        width: 100px;
+    }
+    .logo{
+        float: none;
+        width: 100px;
+    }
+    .nav ul li{
+        display: inline-block;
+        width: 55;
+    }
+}
+.secpage{
+    background-color: #fff;
+    height: 100vh;
+    text-align:left;
+}
+
+.cheff img{
+    width: 50%;
+    display: inline-block;
+    padding-top: 50px;
+}
+.page-description{
+    padding-top: 200px;
+    padding-right: 0;
+    text-align:left;
+    width: 50%;
+    float: right;
+    display: inline-block;
+}
+.page-description h2{
+    color: #253048;
+    font-size:  40px; 
+    padding-bottom: 40px;
+    font-family: 'Alegreya';
+}
+.page-description h3{
+color: #c1ab84;
+padding-bottom: 40px;
+font-size:30px;
+font-family: 'Dancing Script';
+}
+.page-description p{
+    color: #686868;;
+    font-family: Alegreya Sans;
+    font-size: 20px;
+padding-bottom: 20px;
+}
+.icon{
+    display: inline-block;
+}
+.icon p {
+    display:inline-block;
+    padding-left: 10px;
+}
+.icon i{
+background-color:#c1ab84;
+color: #fff;
+border-radius:50%;
+font-size:24px;
+text-align:center;
+background-size: cover;
+width:42px;
+height:42px;
+line-height:  42px; 
+}
+.restaurant{
+    text-align: center;
+}
+.glass{
+    padding-left: 70px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.review{
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.glass img{
+    width: 50%;
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    padding-top: 100px;
+    display: inline-block; 
+     
+}
+.Reviewers{
+   width: 50%;
+   padding-top: 160px;
+   padding-right: 70px; 
+    display: inline-block;
+    float: left;
+}
+.Reviewers h2{
+    color: #373a3c;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Alegreya';
+
+}
+.Reviewers h3{
+    color: #c1ab84;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.Reviewers p{
+    color: #686868;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: Alegreya Sans;
+
+}
+.likes p{
+    display: inline-block;
+    font-family: Alegreya Sans;
+    padding-left: 20px;
+}
+.likes i{
+    color: #c1ab84;
+    display: inline-block;
+}
+.restaurant{
+    background-image: url(img/shutterstock_280369721.jpg);
+height: 100vh;
+background-size: cover;
+text-align: center;
+}
+.menu-page{
+    text-align: center;
+    padding-top:60px;
+    height: 100vh;
+}
+.menu-page h2{
+    font-size:38px;
+    font-family: 'Alegreya';
+
+}
+.menu-page h3{
+    font-size:38px;
+    font-family: 'Dancing Script', cursive;
+padding-bottom: 20PX;
+color: rgb(193, 171, 132);
+}
+.menu img{
+    height: 300px;
+    width: 300px;
+    padding-left: 40px;
+    
+    
+}
+.menu{
+    margin: 20px;
+    float: left;
+    width: 30%;
+    padding-bottom: 20px;
+}
+.menus button{
+    text-align: center;
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(193, 171, 132);
+
+}
+.gps{
+    height: 100vh;
+    margin-top: 80px;
+    background-color: #f8f8f8;
+}
+ .contacts p{
+    display: inline-block;
+ }
+
+.contacts i{
+    color: #fff;
+    background-color: #c1ab84;
+    border-radius: 50%;
+    line-height: 42px;
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    display: inline-block;
+}
+.contact h2{
+    color: #253048;
+    font-size: 40px;
+    font-family: 'Alegreya';
+    padding-bottom: 36px;
+}
+.contact p{
+    font-family: Alegreya Sans;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.contact{
+    float: left;
+    width: 50%;
+    padding-top: 120px;
+    padding-left: 50px;
+}
+.google-gps iframe{
+    text-align: center;
+    padding-left: 60px;
+    padding-top: 60px;
+    box-sizing: border-box;
+    right: 20px;
+    box-sizing: border-box;
+}
+.google-gps{
+    width: 50%;
+display: inline-block;
+}
+
+.float-item h4{
+padding-top: 50px;
+padding-bottom: 30px;
+color: white;
+font-size: 24px;
+font-family: 'Alegreya';
+}
+.float-item {
+padding-left: 20px;
+font-size: 18px;
+padding-bottom: 30px;
+border-bottom:rgb(150, 150, 150,.05) 0.3px solid;
+color: rgb(150, 150, 150);
+}
+.float-item i{
+    padding-right: 10px;
+    color: #797979;
+    display: inline-block;
+}
+.float-item a{
+   
+    text-decoration: none;
+    color:#797979;
+}
+.float-item{
+    font-family: Alegreya Sans;
+    width:23.45%;
+    float: left;  
+    background-color:rgb(64, 61, 56) ;   
+    height: 100vh;
+}
+.float-item li{
+    font-family: Alegreya Sans;
+    list-style: none;
+    padding-block: 10px;
+    border-bottom: #797979 0.06px solid;
+}
+.list:hover{
+    color: white;
+}
+.float-item a:hover{
+    color: white;
+}
+.float-item p{
+    padding-bottom: 20px;
+}
+.float-item .Contact-Det{
+   
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+   position: relative;
+   background-image: url(img/contact-details-map.png);
+}
+.overlay3{
+    z-index: 1;
+    opacity: .20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.final-page{
+    background-color: rgb(53, 51, 48);
+padding-bottom: 70px;
+text-align: center;
+padding-top: 50px;
+color: #777;
+}
+.social_media i{
+    font-size: large;
+    text-align: center;
+    background-color: #535353;;
+    color: #797979;
+    border-radius: 50%;
+    line-height: 62px;
+    width: 60px;
+    height: 62px;
+    text-align: center;
+    display: inline-block;
+    
+   
+}
+.social_media i:hover{
+
+    background-color: #014c8c;
+    color: #fff;
+}
+.twitter i:hover{
+
+    background-color: #0275d8;
+    color: #fff;
+}
+.social_media a{
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.social_media{
+    text-align: center;
+    padding-top: 20px; 
+}
